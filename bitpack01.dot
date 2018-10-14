@@ -1,0 +1,61 @@
+digraph g {
+ 
+// ratio=fill
+ splines=spline
+// overlap=scale
+// penwidth=0.1
+
+node [shape=circle,
+      #fixedsize=true,
+      width=0.2,
+      fixedsize=true
+      #color="black", 
+      #fillcolor="#eeeeee",
+      #style="filled,solid",
+      fontsize=8
+
+      ,penwidth=0.25
+      ]
+
+edge [#arrowhead="empty",
+      arrowsize=0.5
+      ,      penwidth=0.25
+]
+
+c1 [pos="-160,120!"]
+c2 [pos="-120,120!"]
+b0 [pos="-80,120!"]
+b1 [pos="-40,120!"]
+b2 [pos="0,120!"]
+a0 [pos="40,120!"]
+a1 [pos="80,120!"]
+a2 [pos="120,120!"]
+
+f2 [pos="-160,90!"]
+e0 [pos="-120,90!"]
+e1 [pos="-80,90!"]
+e2 [pos="-40,90!"]
+d0 [pos="0,90!"]
+d1 [pos="40,90!"]
+d2 [pos="80,90!"]
+c0 [pos="120,90!"]
+
+h0 [pos="-160,60!"]
+h1 [pos="-120,60!"]
+h2 [pos="-80,60!"]
+g0 [pos="-40,60!"]
+g1 [pos="0,60!"]
+g2 [pos="40,60!"]
+f0 [pos="80,60!"]
+f1 [pos="120,60!"]
+
+a0->a1->a2
+b0->b1->b2
+c0->c1->c2
+d0->d1->d2
+e0->e1->e2
+f0->f1->f2
+g0->g1->g2
+h0->h1->h2
+
+}

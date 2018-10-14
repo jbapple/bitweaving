@@ -1,0 +1,140 @@
+digraph g {
+ 
+#ratio=fill
+#splines=spline
+#overlap=scale
+#penwidth=0.1
+
+node [shape=circle,
+      #fixedsize=true,
+      width=0.2,
+      fixedsize=true
+      #color="black", 
+      #fillcolor="#eeeeee",
+      #style="filled,solid",
+      fontsize=8
+      #,label=""
+      ,penwidth=0.25
+      ]
+
+edge [#arrowhead="empty",
+      arrowsize=0.5
+      ,      penwidth=0.25
+]
+
+a0 [pos="0,99!"]
+a1 [pos="0,66!"]
+a2 [pos="0,33!"]
+a3 [pos="0,0!"]
+a0 -> a1 -> a2 -> a3
+
+b0 [pos="20,99!"]
+b1 [pos="20,66!"]
+b2 [pos="20,33!"]
+b3 [pos="20,0!"]
+b0 -> b1 -> b2 -> b3
+
+c0 [pos="40,99!"]
+c1 [pos="40,66!"]
+c2 [pos="40,33!"]
+c3 [pos="40,0!"]
+c0 -> c1 -> c2 -> c3
+
+d0 [pos="60,99!"]
+d1 [pos="60,66!"]
+d2 [pos="60,33!"]
+d3 [pos="60,0!"]
+d0 -> d1 -> d2 -> d3
+
+e0 [pos="80,99!"]
+e1 [pos="80,66!"]
+e2 [pos="80,33!"]
+e3 [pos="80,0!"]
+e0 -> e1 -> e2 -> e3
+
+f0 [pos="100,99!"]
+f1 [pos="100,66!"]
+f2 [pos="100,33!"]
+f3 [pos="100,0!"]
+f0 -> f1 -> f2 -> f3
+
+g0 [pos="120,99!"]
+g1 [pos="120,66!"]
+g2 [pos="120,33!"]
+g3 [pos="120,0!"]
+g0 -> g1 -> g2 -> g3
+
+h0 [pos="140,99!"]
+h1 [pos="140,66!"]
+h2 [pos="140,33!"]
+h3 [pos="140,0!"]
+h0 -> h1 -> h2 -> h3
+
+i0 [pos="160,99!"]
+i1 [pos="160,66!"]
+i2 [pos="160,33!"]
+i3 [pos="160,0!"]
+i0 -> i1 -> i2 -> i3
+
+j0 [pos="180,99!"]
+j1 [pos="180,66!"]
+j2 [pos="180,33!"]
+j3 [pos="180,0!"]
+j0 -> j1 -> j2 -> j3
+
+k0 [pos="200,99!"]
+k1 [pos="200,66!"]
+k2 [pos="200,33!"]
+k3 [pos="200,0!"]
+k0 -> k1 -> k2 -> k3
+
+L0 [pos="220,99!"]
+L1 [pos="220,66!"]
+L2 [pos="220,33!"]
+L3 [pos="220,0!"]
+L0 -> L1 -> L2 -> L3
+
+m0 [pos="240,99!"]
+m1 [pos="240,66!"]
+m2 [pos="240,33!"]
+m3 [pos="240,0!"]
+m0 -> m1 -> m2 -> m3
+
+n0 [pos="260,99!"]
+n1 [pos="260,66!"]
+n2 [pos="260,33!"]
+n3 [pos="260,0!"]
+n0 -> n1 -> n2 -> n3
+
+o0 [pos="280,99!"]
+o1 [pos="280,66!"]
+o2 [pos="280,33!"]
+o3 [pos="280,0!"]
+o0 -> o1 -> o2 -> o3
+
+p0 [pos="300,99!"]
+p1 [pos="300,66!"]
+p2 [pos="300,33!"]
+p3 [pos="300,0!"]
+p0 -> p1 -> p2 -> p3
+
+ad0 [pos="30,101!",  label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="ad0", xlp="30,108"]
+eh0 [pos="110,101!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="eh0", xlp="110,108"]
+iL0 [pos="190,101!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="iL0", xlp="190,108"]
+mp0 [pos="270,101!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="mp0", xlp="270,108"]
+
+ad1 [pos="30,68!",  label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="ad1", xlp="30,75"]
+eh1 [pos="110,68!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="eh1", xlp="110,75"]
+iL1 [pos="190,68!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="iL1", xlp="190,75"]
+mp1 [pos="270,68!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="mp1", xlp="270,75"]
+
+ad2 [pos="30,35!",  label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="ad2", xlp="30, 42"]
+eh2 [pos="110,35!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="eh2", xlp="110,42"]
+iL2 [pos="190,35!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="iL2", xlp="190,42"]
+mp2 [pos="270,35!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="mp2", xlp="270,42"]
+
+ad3 [pos="30, 2!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="ad1", xlp="30, 9"]
+eh3 [pos="110,2!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="eh1", xlp="110,9"]
+iL3 [pos="190,2!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="iL1", xlp="190,9"]
+mp3 [pos="270,2!", label="", shape="rectangle", width=1.05, height=0.35, style=rounded, xlabel="mp1", xlp="270,9"]
+}

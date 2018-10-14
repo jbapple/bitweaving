@@ -1,0 +1,55 @@
+digraph g {
+ 
+// ratio=fill
+// splines=spline
+// overlap=scale
+// penwidth=0.1
+
+node [shape=circle,
+      #fixedsize=true,
+      width=0.2,
+      fixedsize=true
+      #color="black", 
+      #fillcolor="#eeeeee",
+      #style="filled,solid",
+      fontsize=8
+
+      ,penwidth=0.25
+      ]
+
+edge [#arrowhead="empty",
+      arrowsize=0.5
+      ,      penwidth=0.25
+]
+
+z0 [pos="-160,120!", label="0", fontsize=15, fontcolor="blue"]
+z1 [pos="-120,120!", label="0", fontsize=15, fontcolor="blue"]
+z2 [pos="-80,120!", label="0", fontsize=15, fontcolor="blue"]
+z3 [pos="-40,120!", label="0", fontsize=15, fontcolor="blue"]
+z4 [pos="0,120!", label="0", fontsize=15, fontcolor="blue"]
+a0 [pos="40,120!"]
+a1 [pos="80,120!"]
+a2 [pos="120,120!"]
+a0 -> a1 -> a2
+
+y0 [pos="-160,90!", label="0", fontsize=15, fontcolor="blue"]
+y1 [pos="-120,90!", label="0", fontsize=15, fontcolor="blue"]
+y2 [pos="-80,90!", label="0", fontsize=15, fontcolor="blue"]
+y3 [pos="-40,90!", label="0", fontsize=15, fontcolor="blue"]
+y4 [pos="0,90!", label="0", fontsize=15, fontcolor="blue"]
+b0 [pos="40,90!"]
+b1 [pos="80,90!"]
+b2 [pos="120,90!"]
+b0 -> b1 -> b2
+
+x0 [pos="-160,60!", label="0", fontsize=15, fontcolor="blue"]
+x1 [pos="-120,60!", label="0", fontsize=15, fontcolor="blue"]
+x2 [pos="-80,60!", label="0", fontsize=15, fontcolor="blue"]
+x3 [pos="-40,60!", label="0", fontsize=15, fontcolor="blue"]
+x4 [pos="0,60!", label="0", fontsize=15, fontcolor="blue"]
+c0 [pos="40,60!"]
+c1 [pos="80,60!"]
+c2 [pos="120,60!"]
+c0 -> c1 -> c2
+
+}

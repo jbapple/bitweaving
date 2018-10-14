@@ -1,0 +1,53 @@
+digraph g {
+ 
+#ratio=fill
+#splines=spline
+#overlap=scale
+#penwidth=0.1
+
+node [shape="rectangle",
+      style="rounded",
+      #fixedsize=true,
+      width=0.25,
+      height=0.12
+      fixedsize=true
+      #color="black", 
+      #fillcolor="#eeeeee",
+      #style="filled,solid",
+      fontsize=8
+      #,label=""
+      ,penwidth=0.25
+      ]
+
+edge [#arrowhead="empty",
+      arrowsize=0.75
+      ,      penwidth=0.75
+      , style = "bold"
+]
+
+ad0 [pos="0,100!"]
+ad1 [pos="33,100!"]
+ad2 [pos="66,100!"]
+ad3 [pos="99,100!"]
+
+eh0 [pos="0,80!"]
+eh1 [pos="33,80!"]
+eh2 [pos="66,80!"]
+eh3 [pos="99,80!"]
+
+iL0 [pos="0,60!"]
+iL1 [pos="33,60!"]
+iL2 [pos="66,60!"]
+iL3 [pos="99,60!"]
+
+mp0 [pos="0,40!"]
+mp1 [pos="33,40!"]
+mp2 [pos="66,40!"]
+mp3 [pos="99,40!"]
+
+ad0 -> eh0 -> iL0 -> mp0
+ad1 -> eh1 -> iL1 -> mp1
+ad2 -> eh2 -> iL2 -> mp2
+ad3 -> eh3 -> iL3 -> mp3
+
+}

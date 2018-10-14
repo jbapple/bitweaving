@@ -1,0 +1,33 @@
+digraph g {
+ 
+#ratio=fill
+#splines=spline
+#overlap=scale
+#penwidth=0.1
+
+node [shape="rectangle",
+      style="rounded",
+      #fixedsize=true,
+      width=0.333,
+      height=0.12
+      fixedsize=true
+      #color="black", 
+      #fillcolor="#eeeeee",
+      #style="filled,solid",
+      fontsize=8
+      #,label=""
+      ,penwidth=0.25
+      ]
+
+edge [#arrowhead="empty",
+      arrowsize=2
+      ,      penwidth=1
+      , style = "bold"
+]
+
+0 [label="all 0s", pos="0,100!"]
+1 [label="all 1s", pos="0,71!"]
+2 [label="all 2s", pos="0,42!"]
+3 [label="all 3s", pos="0,13!"]
+0 -> 1 -> 2 -> 3
+}

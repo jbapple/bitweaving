@@ -22,22 +22,22 @@ edge [#arrowhead="empty",
       ,      penwidth=0.25
 ]
 
-a0 [pos="0,120!", label="1"]
+a0 [pos="0,120!", label="0", fontsize=15, fontcolor="blue"]
 a1 [pos="40,120!", label="0"]
 a2 [pos="80,120!", label="1"]
-a3 [pos="120,120!", label="0", xlabel="\"1010\"", xlp="145,120"]
-a0 -> a1 -> a2 -> a3
+a3 [pos="120,120!", label="0", xlabel="\"010\"", xlp="145,120"]
+a1 -> a2 -> a3
 
-b0 [pos="0,90!", label="1"]
+b0 [pos="0,90!", label="0", fontsize=15, fontcolor="blue"]
 b1 [pos="40,90!", label="1"]
 b2 [pos="80,90!", label="1"]
-b3 [pos="120,90!", label="0", xlabel="\"1110\"", xlp="145,90"]
-b0 -> b1 -> b2 -> b3
+b3 [pos="120,90!", label="0", xlabel="\"110\"", xlp="145,90"]
+b1 -> b2 -> b3
 
-c0 [pos="0,60!", label="0"]
+c0 [pos="0,60!", label="0", fontsize=15, fontcolor="blue"]
 c1 [pos="40,60!", label="1"]
 c2 [pos="80,60!", label="1"]
-c3 [pos="120,60!", label="0", xlabel="\"0110\"", xlp="145,60"]
-c0 -> c1 -> c2 -> c3
+c3 [pos="120,60!", label="1", xlabel="\"111\"", xlp="145,60"]
+c1 -> c2 -> c3
 
 }
