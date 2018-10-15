@@ -1,0 +1,83 @@
+digraph g {
+ 
+// ratio=fill
+ splines=spline
+// overlap=scale
+// penwidth=0.1
+
+node [shape=circle,
+      #fixedsize=true,
+      width=0.2,
+      fixedsize=true
+      #color="black", 
+      #fillcolor="#eeeeee",
+      #style="filled,solid",
+      fontsize=8
+      ,label=""
+      ,penwidth=0.25
+      ]
+
+edge [#arrowhead="empty",
+      arrowsize=0.5
+      ,      penwidth=0.25
+]
+
+z1 [pos="-40,120!", label="e?"]
+e0 [pos="0,120!"]
+e1 [pos="40,120!"]
+e2 [pos="80,120!"]
+z2 [pos="120,120!", label="a?"]
+a0 [pos="160,120!"]
+a1 [pos="200,120!"]
+a2 [pos="240,120!"]
+
+z3 [pos="-80,90!", label="f?"]
+f0 [pos="-40,90!"]
+f1 [pos="0,90!"]
+f2 [pos="40,90!"]
+z4 [pos="80,90!", label="b?"]
+b0 [pos="120,90!"]
+b1 [pos="160,90!"]
+b2 [pos="200,90!"]
+
+z5 [pos="-120,60!", label="g?"]
+g0 [pos="-80,60!"]
+g1 [pos="-40,60!"]
+g2 [pos="0,60!"]
+z6 [pos="40,60!", label="c?"]
+c0 [pos="80,60!"]
+c1 [pos="120,60!"]
+c2 [pos="160,60!"]
+
+z7 [pos="-160,30!", label="h?"]
+h0 [pos="-120,30!"]
+h1 [pos="-80,30!"]
+h2 [pos="-40,30!"]
+z8 [pos="0,30!", label="d?"]
+d0 [pos="40,30!"]
+d1 [pos="80,30!"]
+d2 [pos="120,30!"]
+
+or1 [pos="-180,15", color="transparent", label="or"]
+or2 [pos="140,15", color="transparent", label="or"]
+or1 -> or2 [arrowhead="none"]
+
+ph [pos="-160,0!", label="h?"]
+pg [pos="-120,0!", label="g?"]
+pf [pos="-80,0!", label="f?"]
+pe [pos="-40,0!", label="e?"]
+pd [pos="0,0!", label="d?"]
+pc [pos="40,0!", label="c?"]
+pb [pos="80,0!", label="b?"]
+pa [pos="120,0!", label="a?"]
+
+a0->a1->a2
+b0->b1->b2
+c0->c1->c2
+d0->d1->d2
+e0->e1->e2
+f0->f1->f2
+g0->g1->g2
+h0->h1->h2
+
+}
