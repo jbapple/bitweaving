@@ -2,9 +2,9 @@
 
 all: ps png
 
-ps: $(patsubst %.dot,%.ps,*.dot)
+ps: $(patsubst %.dot,%.ps,$(wildcard *.dot))
 
-png: $(patsubst %.dot,%.png,*.dot)
+png: $(patsubst %.dot,%.png,$(wildcard *.dot))
 
 # none: standard.ps bitslice.ps bitslice1.ps bitslice2.ps bitslice03.ps \
 #  bitslice04.ps bitslice05.ps vbp01.ps vbp02.ps vbp03.ps vbp04.ps vbp05.ps \
